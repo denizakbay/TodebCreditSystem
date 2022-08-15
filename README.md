@@ -57,6 +57,13 @@ writing using.
 
 ```
 POST  localhost:8080/api/customer (returns customer input.)
+{
+    "identityNumber": "11121111416",
+    "firstName": "Deniz",
+    "lastName": "Akbay",
+    "monthlyIncome": 2134.0,
+    "phone": "+905378130888"
+}
 ```
 
 ```
