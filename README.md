@@ -132,10 +132,13 @@ The application will be available at the URL: [Home](http://localhost:8080).
 ## Docker
 First you need to uncomment this line in application.properties;
 
+```
 * spring.profiles.active=docker
+```
 
 Start Docker Engine in your machine.
 
+```
 Run mvn clean install.
 
 Build executable jar file - mvn clean package
@@ -143,7 +146,7 @@ Build executable jar file - mvn clean package
 Build Docker image - docker build -t todeb-credit-system:v1 .
 
 Run Docker container using the image built - docker run -p 8080:8080 todeb-credit-system:v1
-    
+```
 ---
 ![](img/hierar.png)
 
