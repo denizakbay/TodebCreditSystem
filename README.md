@@ -43,7 +43,10 @@ writing using.
 - JDK 18
 - Lombok
 - PostgreSQL
-- JUnit
+- H2
+- Twilio
+- JUnit 5
+- Assertj
 - Docker
 - Swagger UI
 
@@ -105,7 +108,7 @@ All you need to do is integrate its API with your software.
 
 * The SMS I got on my phone after applying for a loan:
 
-![](img/sms.jpeg )
+<img src="https://github.com/denizakbay/TodebCreditSystem/blob/master/img/sms.jpeg" width="400" height="700" />
 
 
 
