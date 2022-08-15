@@ -86,6 +86,12 @@ POST  localhost:8080/api/credit-application?identityNumber=1111111110 (Customers
 GET  localhost:8080/api/credit-application (credit applicants can be listed)
 ```
 
+### ENTITY RELATIONSHIP DIAGRAM
+
+---
+
+![](img/diagram.png)
+
 
 ### Twilio
 I used [Twilio](https://www.twilio.com/try-twilio?utm_source=google&utm_medium=cpc&utm_term=twilio&utm_campaign=Sitelink-G_S_EMEA_Brand_DACH_EN_NV&cq_plac=&cq_net=g&cq_pos=&cq_med=&cq_plt=gp&gclid=Cj0KCQjw3eeXBhD7ARIsAHjssr8cFPvD9_KwKBh4LoeB8yNmHBAx0Hike0JK6Sz7UolY780BBrW6npcaAh8BEALw_wcB) for sending credit application result via SMS.
@@ -149,14 +155,6 @@ Run Docker container using the image built - docker run -p 8080:8080 todeb-credi
 ```
 ---
 ![](img/hierar.png)
-
-
-
-### ENTITY RELATIONSHIP DIAGRAM
-
----
-
-![](img/diagram.png)
 
 
 ### API Documentation
